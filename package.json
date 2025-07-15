@@ -2,42 +2,24 @@
   "name": "my-react-app",
   "version": "1.0.0",
   "private": true,
-  "description": "A production-ready Gatsby + React app",
+  "description": "A simple Gatsby React app",
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^5.13.1",
+    "gatsby": "^5.12.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "gatsby-plugin-image": "^3.13.0",
-    "gatsby-plugin-sharp": "^5.13.0",
-    "gatsby-transformer-sharp": "^5.13.0",
-    "graphql": "^16.6.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "eslint": "^8.55.0",
-    "@babel/eslint-parser": "^7.21.5",
-    "eslint-plugin-react": "^7.33.2",
-    "husky": "^8.0.3"
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.2"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
-  },
-  "resolutions": {
-    "graphql": "^16.6.0"
-  },
-  "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=8.0.0"
-  },
-  "author": "Your Name",
-  "license": "MIT"
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ]
 }
